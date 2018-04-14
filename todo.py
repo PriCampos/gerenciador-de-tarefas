@@ -2,8 +2,8 @@ from flask import Flask, jsonify
 
 app = Flask('todo')
 
-tarefas = ['id':, '1', 'titulo':, 'descrição',
-            'estado': 'false']
+tarefas = {'id': 1, 'titulo': 'descricao',
+            'estado': 'false'}
 
 
 @app.route('/tarefas')
